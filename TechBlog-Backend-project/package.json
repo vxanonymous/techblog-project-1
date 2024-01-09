@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cookie-parse": "^0.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "jwt-encode": "^1.0.1",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.3.8",
+    "multer-gridfs-storage": "^5.0.2",
+    "nodemon": "^2.0.19"
+  },
+  "name": "techblog-backend",
+  "version": "1.0.0",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/app.js",
+    "dev": "nodemon ./src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "## Project setup ``` npm install ```"
+}
